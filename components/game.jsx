@@ -41,7 +41,7 @@ class Game extends React.Component {
     }
 
     return (
-      <div>
+      <div id="gameboard">
         {modal}
         <Board board={this.state.board} updateGame={this.updateGame} />
       </div>

@@ -280,7 +280,9 @@ var Game = /*#__PURE__*/function (_React$Component) {
         }, "Play Again")));
       }
 
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, modal, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_board__WEBPACK_IMPORTED_MODULE_0__["default"], {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        id: "gameboard"
+      }, modal, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_board__WEBPACK_IMPORTED_MODULE_0__["default"], {
         board: this.state.board,
         updateGame: this.updateGame
       }));
